@@ -1,0 +1,11 @@
+scheme: Gemini
+language: zh-CN
+footer:
+  since: 2019
+  powered: true
+  beian:
+    enable: true
+    icp: 黑ICP备 20000491号-1
+    gongan_id: 23010302000977
+    gongan_num: 黑公网安备 23010302000977号
+    gongan_icon_url: http://static.lsy99.cn/公安.svg
