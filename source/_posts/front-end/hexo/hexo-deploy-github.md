@@ -1,5 +1,5 @@
 ---
-title: Hexo 一键部署 Github Pages
+title: Hexo 一键部署 GitHub Pages
 date: 2020-10-18 18:37:20
 tags: 
   - Hexo
@@ -13,7 +13,7 @@ categories:
 
 ## 步骤
 
-1. Github 新建 `<用户名>.github.io` 仓库
+1. GitHub 新建 `<用户名>.github.io` 仓库
 
 2.  新建 `gh-pages` 分支
 

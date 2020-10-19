@@ -1,14 +1,60 @@
-scheme: Gemini
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
+# scheme: Gemini
 language: zh-CN
 footer:
   since: 2019
-  powered: true
+  powered: false
   beian:
     enable: true
     icp: 黑ICP备 20000491号-1
     gongan_id: 23010302000977
     gongan_num: 黑公网安备 23010302000977号
-    gongan_icon_url: http://static.lsy99.cn/公安.svg
-auto_excerpt:
+    gongan_icon_url: /images/beian-icon.svg
+  icon:
+    # name: fa fa-user
+    animated: true
+    # color: "#808080"
+
+
+
+# 何时显示菜单栏
+sidebar:
+  # display: post
+  display: always
+
+# 侧边菜单栏
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+
+# 侧边栏头像
+avatar:
+  url: /images/avatar.png
+  # 圆的
+  # rounded: true
+  #旋转
+  # rotated: true
+
+
+# Github 章鱼猫
+github_banner:
   enable: true
-  length: 150
+  permalink: https://github.com/yourname
+  title: Follow me on GitHub
+
+# 阅读进度条
+reading_progress:
+  enable: true
+  # color: "#FC6423"
+  color: "#222222"
+  height: 2px
+
+# tag从井号换图标 
+tag_icon: true
+
+
+
