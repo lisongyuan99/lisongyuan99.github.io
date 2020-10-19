@@ -9,3 +9,6 @@ footer:
     gongan_id: 23010302000977
     gongan_num: 黑公网安备 23010302000977号
     gongan_icon_url: http://static.lsy99.cn/公安.svg
+auto_excerpt:
+  enable: true
+  length: 150

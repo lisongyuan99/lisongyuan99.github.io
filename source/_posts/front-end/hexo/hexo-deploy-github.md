@@ -7,6 +7,10 @@ categories:
   - [前端, Hexo]
 ---
 
+建立远程仓库添加 hooks 一键部署
+
+<!--more-->
+
 ## 步骤
 
 1. Github 新建 `<用户名>.github.io` 仓库

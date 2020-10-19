@@ -7,6 +7,10 @@ categories:
   - [前端, Hexo]
 ---
 
+ 多分支备份源文件，部署到 Github Pages
+
+<!--more-->
+
 ## 步骤
 
 1.  搭建远程裸仓库
