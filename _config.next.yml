@@ -17,8 +17,6 @@ footer:
     animated: true
     # color: "#808080"
 
-
-
 # 何时显示菜单栏
 sidebar:
   # display: post
@@ -30,6 +28,9 @@ menu:
   archives: /archives/ || fa fa-archive
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
+  about: /about/ || fa fa-user
+  # sitemap: /sitemap.xml || fa fa-sitemap
+  # schedule: /schedule/ || fa fa-calendar
 
 # 侧边栏头像
 avatar:
@@ -39,11 +40,28 @@ avatar:
   #旋转
   # rotated: true
 
+# 侧边栏 社交
+social:
+  GitHub: https://github.com/lisongyuan99 || fab fa-github
+  E-Mail: mailto:lsy114514@hotmail.com || fa fa-envelope
+  # Weibo: https://weibo.com/yourname || fab fa-weibo
+  # Google: https://plus.google.com/yourname || fab fa-google
+  # Twitter: https://twitter.com/yourname || fab fa-twitter
+  # FB Page: https://www.facebook.com/yourname || fab fa-facebook
+  # StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
+  # YouTube: https://youtube.com/yourname || fab fa-youtube
+  # Instagram: https://instagram.com/yourname || fab fa-instagram
+  # Skype: skype:yourname?call|chat || fab fa-skype
+social_icons:
+  enable: true
+  icons_only: false
+  transition: true
+
 
 # Github 章鱼猫
 github_banner:
   enable: true
-  permalink: https://github.com/yourname
+  permalink: https://github.com/lisongyuan99
   title: Follow me on GitHub
 
 # 阅读进度条
@@ -53,8 +71,47 @@ reading_progress:
   color: "#222222"
   height: 2px
 
+# 回到顶部
+back2top:
+  enable: true
+  scrollpercent: false
+  sidebar: true
+
 # tag从井号换图标 
 tag_icon: true
 
+# 谷歌日历
+# calendar:
+#   calendar_id: 
+#   api_key: 
+#   orderBy: startTime
+#   showLocation: false
+#   offsetMax: 72
+#   offsetMin: 4
+#   showDeleted: false
+#   singleEvents: true
+#   maxResults: 250
 
+toc:
+  number: false
 
+# Local search
+# Dependencies: https://github.com/next-theme/hexo-generator-searchdb
+local_search:
+  enable: true
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: false
+
+# 查看大图
+fancybox: true
+
+vendors:
+  fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
+  fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css

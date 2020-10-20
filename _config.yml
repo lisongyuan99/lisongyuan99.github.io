@@ -13,10 +13,10 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://blog.lsy99.cn
 root: /
 # permalink: :year/:month/:day/:title/
-permalink: :title/
+permalink: posts/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -110,3 +110,28 @@ deploy:
 - type: git
   repo: git@175.24.31.49:/var/repo/hexo.git
   branch: master
+
+# 内置搜索
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+disable_baidu_transformation: true
+index_with_subtitle: true
+
+# 自动 nofollow
+nofollow:
+  enable: true
+  field: site
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
