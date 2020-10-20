@@ -126,12 +126,15 @@ nofollow:
   enable: true
   field: site
 
+# 站点地图
 sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
 
+# emoji
 githubEmojis:
   enable: true
   className: github-emoji
   inject: true
+

@@ -111,7 +111,14 @@ local_search:
 
 # 查看大图
 fancybox: true
-
 vendors:
   fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
   fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
+
+favicon:
+  small: /images/favicon/favicon-16x16.png
+  medium: /images/favicon/favicon-32x32.png
+  apple_touch_icon: /images/favicon/apple-touch-icon.png
+  safari_pinned_tab: /images/favicon/safari-pinned-tab.svg
+  android_manifest: /images/favicon/manifest.json
+  ms_browserconfig: /images/favicon/browserconfig.xml
