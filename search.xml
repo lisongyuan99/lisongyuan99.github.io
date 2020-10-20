@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/posts/others/hello-world/</url>
+    <content><![CDATA[<h1 id="Todo"><a href="#Todo" class="headerlink" title="Todo"></a>Todo</h1><ul>
+<li>Hexo<ul>
+<li><input checked="" disabled="" type="checkbox"> github</li>
+<li><input checked="" disabled="" type="checkbox"> 云服务器</li>
+<li><input checked="" disabled="" type="checkbox"> 图片</li>
+<li><input disabled="" type="checkbox"> 更改头像为圆形</li>
+<li><input disabled="" type="checkbox"> 搜索</li>
+<li><input disabled="" type="checkbox"> 其他设置</li>
+</ul>
+</li>
+<li>Spring<ul>
+<li><input disabled="" type="checkbox"> 重构</li>
+</ul>
+</li>
+<li>GitHub改名</li>
+<li>……</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>Typora 在 Hexo 中“优雅”地插入图片</title>
     <url>/posts/front-end/hexo/hexo-add-picture/</url>
     <content><![CDATA[<p>利用 Typora 自动复制图片到资源文件夹链接图片</p>
@@ -39,28 +61,6 @@
         <tag>Hexo</tag>
         <tag>Markdown</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/posts/others/hello-world/</url>
-    <content><![CDATA[<h1 id="Todo"><a href="#Todo" class="headerlink" title="Todo"></a>Todo</h1><ul>
-<li>Hexo<ul>
-<li><input checked="" disabled="" type="checkbox"> github</li>
-<li><input checked="" disabled="" type="checkbox"> 云服务器</li>
-<li><input checked="" disabled="" type="checkbox"> 图片</li>
-<li><input disabled="" type="checkbox"> 更改头像为圆形</li>
-<li><input disabled="" type="checkbox"> 搜索</li>
-<li><input disabled="" type="checkbox"> 其他设置</li>
-</ul>
-</li>
-<li>Spring<ul>
-<li><input disabled="" type="checkbox"> 重构</li>
-</ul>
-</li>
-<li>GitHub改名</li>
-<li>……</li>
-</ul>
-]]></content>
   </entry>
   <entry>
     <title>Hexo 一键部署 GitHub Pages</title>
@@ -164,37 +164,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开始使用 Hexo</title>
-    <url>/posts/front-end/hexo/hexo-start/</url>
-    <content><![CDATA[<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-<a id="more"></a>
-
-<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol>
-<li><p>安装，初始化hexo环境</p>
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init [folder]</span><br></pre></td></tr></tbody></table></figure>
-</li>
-<li><p>新建一个页面</p>
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">hexo new page --path /front-end/hexo/hexo-start</span><br></pre></td></tr></tbody></table></figure>
-
-<p>将新建  <code>/source/_posts/front-end/hexo/hexo-start.md</code> 文件</p>
-<p>部署后的url是 <code>年/月/日/front-end/hexo/hexo-start</code> ，可通过调整 _config.yml设置</p>
-</li>
-<li><p>调试</p>
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></tbody></table></figure>
-
-<p>默认 localhost:4000</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>前端</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo 以及 NexT 主题的设置</title>
     <url>/posts/front-end/hexo/hexo-theme-next-settings/</url>
     <content><![CDATA[<ul>
@@ -231,6 +200,37 @@
 <figure class="highlight yml"><table><tbody><tr><td class="code"><pre><span class="line"><span class="attr">permalink:</span> <span class="string">:title/</span></span><br></pre></td></tr></tbody></table></figure>
 
 <h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p><a href="https://theme-next.js.org/docs/">Documentation | NexT</a></p>
+]]></content>
+      <categories>
+        <category>前端</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开始使用 Hexo</title>
+    <url>/posts/front-end/hexo/hexo-start/</url>
+    <content><![CDATA[<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<a id="more"></a>
+
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol>
+<li><p>安装，初始化hexo环境</p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init [folder]</span><br></pre></td></tr></tbody></table></figure>
+</li>
+<li><p>新建一个页面</p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">hexo new page --path /front-end/hexo/hexo-start</span><br></pre></td></tr></tbody></table></figure>
+
+<p>将新建  <code>/source/_posts/front-end/hexo/hexo-start.md</code> 文件</p>
+<p>部署后的url是 <code>年/月/日/front-end/hexo/hexo-start</code> ，可通过调整 _config.yml设置</p>
+</li>
+<li><p>调试</p>
+<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></tbody></table></figure>
+
+<p>默认 localhost:4000</p>
+</li>
+</ol>
 ]]></content>
       <categories>
         <category>前端</category>
