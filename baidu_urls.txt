@@ -3,3 +3,5 @@ https://blog.lsy99.cn/posts/front-end/hexo/hexo-theme-next-settings/
 https://blog.lsy99.cn/posts/front-end/hexo/hexo-add-picture/
 https://blog.lsy99.cn/posts/front-end/hexo/hexo-deploy-server/
 https://blog.lsy99.cn/posts/front-end/hexo/hexo-deploy-github/
+https://blog.lsy99.cn/posts/front-end/hexo/hexo-start/
+https://blog.lsy99.cn/posts/others/hello-world/
