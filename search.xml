@@ -63,23 +63,27 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo 备忘录</title>
-    <url>/posts/front-end/hexo/hexo-memo/</url>
-    <content><![CDATA[<p>各种疑难杂症</p>
-<ul>
-<li>端口号</li>
-</ul>
+    <title>Hexo 一键部署 GitHub Pages</title>
+    <url>/posts/front-end/hexo/hexo-deploy-github/</url>
+    <content><![CDATA[<p>建立远程仓库添加 hooks 一键部署</p>
 <a id="more"></a>
 
-<h2 id="QQ联网错误"><a href="#QQ联网错误" class="headerlink" title="QQ联网错误"></a>QQ联网错误</h2><p>Hexo 占用4000端口调试，QQ 也使用4000端口会导致无法登录</p>
-<p>使用该语句调试</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s -p 40000</span><br></pre></td></tr></table></figure>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol>
+<li><p>GitHub 新建 <code>&lt;用户名&gt;.github.io</code> 仓库</p>
+</li>
+<li><p>新建 <code>gh-pages</code> 分支</p>
+</li>
+<li><p><code>settings-&gt;Github Pages</code>  选择  <code>gh-pages</code> 分支</p>
+</li>
+<li><p>配置 <code>-config.yml</code></p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@github.com:&lt;用户名&gt;/&lt;用户名&gt;.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">gh-pages</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>一键部署</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 
-<p>或修改 <code>node_modules/hexo-serve/index.js</code></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">port: <span class="number">40000</span></span><br></pre></td></tr></table></figure>
-
-
-
+</li>
+</ol>
+<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><p>使用 master dev 分支存储源文件</p>
 ]]></content>
       <categories>
         <category>前端</category>
@@ -133,27 +137,23 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo 一键部署 GitHub Pages</title>
-    <url>/posts/front-end/hexo/hexo-deploy-github/</url>
-    <content><![CDATA[<p>建立远程仓库添加 hooks 一键部署</p>
+    <title>Hexo 备忘录</title>
+    <url>/posts/front-end/hexo/hexo-memo/</url>
+    <content><![CDATA[<p>各种疑难杂症</p>
+<ul>
+<li>端口号</li>
+</ul>
 <a id="more"></a>
 
-<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol>
-<li><p>GitHub 新建 <code>&lt;用户名&gt;.github.io</code> 仓库</p>
-</li>
-<li><p>新建 <code>gh-pages</code> 分支</p>
-</li>
-<li><p><code>settings-&gt;Github Pages</code>  选择  <code>gh-pages</code> 分支</p>
-</li>
-<li><p>配置 <code>-config.yml</code></p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@github.com:&lt;用户名&gt;/&lt;用户名&gt;.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">gh-pages</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>一键部署</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<h2 id="QQ联网错误"><a href="#QQ联网错误" class="headerlink" title="QQ联网错误"></a>QQ联网错误</h2><p>Hexo 占用4000端口调试，QQ 也使用4000端口会导致无法登录</p>
+<p>使用该语句调试</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s -p 40000</span><br></pre></td></tr></table></figure>
 
-</li>
-</ol>
-<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><p>使用 master dev 分支存储源文件</p>
+<p>或修改 <code>node_modules/hexo-serve/index.js</code></p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">port: <span class="number">40000</span></span><br></pre></td></tr></table></figure>
+
+
+
 ]]></content>
       <categories>
         <category>前端</category>
