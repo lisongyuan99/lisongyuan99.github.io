@@ -1,3 +1,4 @@
+https://blog.lsy99.cn/posts/tools/git/git-ignore-specific-line/
 https://blog.lsy99.cn/posts/front-end/hexo/hexo-memo/
 https://blog.lsy99.cn/posts/front-end/hexo/hexo-theme-next-settings/
 https://blog.lsy99.cn/posts/front-end/hexo/hexo-add-picture/
